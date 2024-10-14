@@ -1,3 +1,4 @@
+#!/usr/bin/env python3
 import math
 
 # Conversió de graus Celsius a Fahrenheit
@@ -77,6 +78,11 @@ def exercici1():
 # * La frase amb la primera lletra de cada paraula en majúscula
 
 # Fes servir ''.join(['*' if c in vocals else c for c in frase]) per canviar les vocals per '*'
+# per exemple:
+# frase = "Hola què tal"
+# vocals = 'aeiouàèéíòóúüAEIOUÀÈÉÍÒÓÚÜ'
+# fraseSenseVocals = ''.join(['*' if c in vocals else c for c in frase])
+# print(fraseSenseVocals)
 
 def exercici2():
     pass

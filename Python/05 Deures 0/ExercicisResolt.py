@@ -1,3 +1,5 @@
+#!/usr/bin/env python3
+
 # Conversió de graus Celsius a Fahrenheit
 # Fórmula: Fahrenheit = (Celsius * 9/5) + 32
 def celsius_a_fahrenheit(celsius):
@@ -104,6 +106,11 @@ def exercici1():
 # * La frase amb la primera lletra de cada paraula en majúscula
 
 # Fes servir ''.join(['*' if c in vocals else c for c in frase]) per canviar les vocals per '*'
+# per exemple:
+# frase = "Hola què tal"
+# vocals = 'aeiouàèéíòóúüAEIOUÀÈÉÍÒÓÚÜ'
+# fraseSenseVocals = ''.join(['*' if c in vocals else c for c in frase])
+# print(fraseSenseVocals)
 
 def exercici2():
     frase = "Python és un llenguatge de programació potent i versàtil"

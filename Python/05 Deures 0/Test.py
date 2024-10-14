@@ -1,3 +1,5 @@
+#!/usr/bin/env python3
+
 import unittest
 import Exercicis  # Importa les funcions de l'arxiu 'Exercicis.py'
 
